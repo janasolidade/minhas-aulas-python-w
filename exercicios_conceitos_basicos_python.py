@@ -43,6 +43,14 @@ print('A sua idade é ' f'{idade}')'''
 
 kilometros = int(input('Digite a quantidade de quilômetros: '))
 
+metros = kilometros * 1000
+centimetros = kilometros * 100000
+milimetros = kilometros * 1000000
+
+print('O número inserido equivale a {} metros, {} centímetros e {} milímetros'.format(metros, centimetros, milimetros))
+
+
+
 
 
 
