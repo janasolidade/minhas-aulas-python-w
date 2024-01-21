@@ -39,16 +39,24 @@ print('A sua idade é ' f'{idade}')'''
 
 # 3) Faça um Programa que peça a quantidade de quilômetros, transforme em metros, centímetros e milímetros.
 
-
-
-kilometros = int(input('Digite a quantidade de quilômetros: '))
+'''kilometros = int(input('Digite a quantidade de quilômetros: '))
 
 metros = kilometros * 1000
 centimetros = kilometros * 100000
 milimetros = kilometros * 1000000
 
-print('O número inserido equivale a {} metros, {} centímetros e {} milímetros'.format(metros, centimetros, milimetros))
+print('O número inserido equivale a {} metros, {} centímetros e {} milímetros'.format(metros, centimetros, milimetros))'''
 
+
+
+# 4) Receba do usuário a quantidade de litros de combustível consumidos e adistância percorrida. Calcule e imprima o consumo médio em km/l.
+
+quantidadeKm = int(input('Digite a quantidadede de litros de combustível consumidos: '))
+distancia = int(input('Digite a distância percorrida: '))
+
+consumo = quantidadeKm // distancia
+
+print(f'O consumo médio de litros de combustível por hora é {consumo}')
 
 
 
